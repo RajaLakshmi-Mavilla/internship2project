@@ -1,9 +1,3 @@
-let username = document.getElementById("name");
-let email = document.getElementById("email");
-let password = document.getElementById("password");
-let button = document.getElementById("button");
-let submitmsg = document.getElementById("submitmsg");
-let errormsg = document.getElementById("errormsg");
 document.addEventListener("DOMContentLoaded", function () {
     let username = document.getElementById("name");
     let email = document.getElementById("email");
@@ -24,6 +18,4 @@ document.addEventListener("DOMContentLoaded", function () {
             submitmsg.textContent = "Form submitted Successfully";
         }
     });
-});
-
 });
