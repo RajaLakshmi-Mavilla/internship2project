@@ -6,7 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
     let submitmsg = document.getElementById("submitmsg");
     let errormsg = document.getElementById("errormsg");
 
+    console.log(username, email, password, button, submitmsg, errormsg);  // Add this line for debugging
+
     button.addEventListener("click", function () {
+        console.log("Button clicked!");  // Add this line for debugging
+
         if (username.value === "" || email.value === "" || password.value === "") {
             submitmsg.textContent = "";
             errormsg.textContent = "Please fill all details";
