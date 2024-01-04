@@ -1,16 +1,13 @@
 
 .form {
     font-weight: bold;
-    font-family: "Roboto";
-
+    font-family: "Roboto", sans-serif;
 }
 
 .submitmsg {
     color: green;
-    font-family: "Caveat";
+    font-family: "Caveat", cursive;
     font-size: 25px;
-
-
 }
 
 .errormsg {
@@ -24,6 +21,6 @@
 }
 
 .head {
-    font-family: "Caveat";
+    font-family: "Caveat", cursive;
     font-weight: bold;
 }
